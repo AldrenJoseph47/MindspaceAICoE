@@ -1,8 +1,8 @@
 import React from 'react';
 import './BotShop.css'; // Import CSS for styling
-import botshopIMG from './assets/botshopIMG.jpg'; // Import bot shop demo image
-import play from './assets/Play.png'; // Import play button image
 import { AgentLayout } from "../../layout";
+import { IconType } from '../../components/common/Icons';
+import {Icon} from '../../components/common/Icons/Icon';
 
 
 const BotShop: React.FC = () => {
@@ -31,14 +31,7 @@ const BotShop: React.FC = () => {
 
           {/* Bot Image and Play Button */}
           <div className="bot-image-container">
-            <img
-              src={botshopIMG} 
-              alt="Bot demo"
-              className="rounded-image"
-            />
-            <button className="play-button">
-              <img src={play} alt="Play Button" />
-            </button>
+          <Icon icon={IconType.botshopimg} style={{ width: '100%', height: 'auto' }}/>
           </div>
 
           {/* Description Section */}

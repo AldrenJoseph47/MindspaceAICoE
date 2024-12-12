@@ -75,7 +75,6 @@ import SocialR from '../../Icon/AgentIcon/icons/SocialMedia/Type3.svg';
 import DashboardR from '../../Icon/AgentIcon/icons/Dashboard/Type3.svg';
 import ResearchR from '../../Icon/AgentIcon/icons/Research/Type3.svg';
 import Sync from './sync.svg';
-import Play from './play.svg';
 import Pause1 from './pause1.svg';
 import WebBorder from './WebBorder.svg';
 import ResearchBorder from './ResearchBorder.svg';
@@ -95,6 +94,8 @@ import NextArrow from './nextArrow.svg';
 import BackArrow from './backArrow.svg';
 import Payment from './payment.svg';
 import Botstore from './botstore.svg';
+import Play from './play.svg';
+import botshopimg from './botshopimg.svg';
 
 /**
  * Enum representing different types of icons.
@@ -177,7 +178,6 @@ export enum IconType {
   pause = 'pause',
   Key = 'key',
   Sync = 'sync',
-  Play = 'play',
   Pause1 = 'pause1',
   Share = 'share',
   Sort = 'sort',
@@ -196,6 +196,8 @@ export enum IconType {
   Botstore = 'Botstore',
   botStoreActive = 'botStoreActive',
   paymentActive = 'paymentActive',
+  Play = 'Play',
+  botshopimg = 'botshopimg',
 }
 
 /**
@@ -279,7 +281,6 @@ export const icons: Record<IconType, string> = {
   [IconType.pause]: pause,
   [IconType.Key]: Key,
   [IconType.Sync]: Sync,
-  [IconType.Play]: Play,
   [IconType.Pause1]: Pause1,
   [IconType.Share]: Share,
   [IconType.Sort]: Sort,
@@ -296,6 +297,8 @@ export const icons: Record<IconType, string> = {
   [IconType.BackArrow]: BackArrow,
   [IconType.Payment]: Payment,
   [IconType.Botstore]: Botstore,
+  [IconType.Play]: Play,
+  [IconType.botshopimg]: botshopimg,
   [IconType.botStoreActive]: './path-to-active-botstore-icon.svg',
   [IconType.paymentActive]: './path-to-active-payment-icon.svg',
 };

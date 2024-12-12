@@ -19,7 +19,6 @@ body {
     margin-top: -20px;
 }
 
-
 /* Hover Effect: Change text and icon color to blue */
 .menu-item:hover .menu-icon {
     filter: brightness(0) saturate(100%) invert(24%) sepia(72%) saturate(4704%) hue-rotate(204deg) brightness(99%) contrast(93%);
@@ -114,6 +113,13 @@ body {
     margin: 20px 0;
 }
 
+.bot-image-container Icon {
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .rounded-image {
     height: auto;
     border-radius: 15px; /* Rounded corners for the image */
@@ -170,9 +176,6 @@ ul {
 li {
     margin: 5px 0;
 }
-
-
-
 
 @media (max-width: 768px) {
     .botshop-container {
@@ -265,7 +268,7 @@ li {
     ul {
         padding-left: 15px; /* Add space for better readability */
     }
-    b{
+    b {
         color: #292929;
     }
 }

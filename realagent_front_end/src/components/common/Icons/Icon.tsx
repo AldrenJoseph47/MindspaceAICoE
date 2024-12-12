@@ -115,6 +115,8 @@ interface IconProps {
    */
   style?: React.CSSProperties;
 
+  size?: number;
+
   /**
    * The color of the icon.
    */
